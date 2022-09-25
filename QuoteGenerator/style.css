@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #00FA9A;
+}
+.wrapper{
+    width:605px;
+    background:  #fff;
+    border-radius: 15px ;
+    padding:25px 25px 25px;
+}
+.wrapper header{
+    font-size: 50px;
+    font-weight: 100px;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quotearea{
+    display:flex;
+    justify-content:center;
+}
+.quotearea i{
+    font-size: 20px;
+
+
+}
+.quotearea i:first-child{
+    margin:3px 200px 0 0;
+}
+.quotearea i:last-child{
+    display:flex;
+    align-items: flex-end;
+    margin:3px 200px 0 0;
+}
+.quotearea .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break:break-all ;
+}
+.content .author{
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+    font-style: italic;
+    justify-content: flex-end;
+  }
+  .author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+  }
+  .author span:last-child{
+    margin: -7px 5px 0 0;
+    font-style: italic;
+  }
+.wrapper .buttons{
+    border-top:1px solid #ccc;
+}
+.buttons .features{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features ul{
+    display:flex;
+    
+}
+.features ul li{
+    list list-style: none;
+    margin:0 5px;
+    height:47px;
+    width: 47px;
+    display:flex;
+    align-items:center;
+    justify content:center;
+    border-radius:50%;
+    border:2px solid #5372F0
+    cursor:pointer;
+    transistion:all 0.3s ease
+}
+.features ul li:hover{
+    color:#fff;
+    background:#5372F0
+}
+.features  button{
+    border:none;
+    outline:none;
+    cursor: pointer;
+    height:100px;
+    width: 100px;
+    padding:13px 22px;
+    font-style: 16px;
+    color:#5372F0;
+    border:2px solid #5372F0
+}
